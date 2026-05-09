@@ -34,3 +34,11 @@ def fact(x):
 
 x=int(input())
 print(fact(x))'''
+<<<<<<< HEAD
+=======
+n=int(input("enter the integer : "))
+exo_2={}
+for i in range (1,n+1):
+  exo_2[i]=i*i
+print (f'the output is : {exo_2}')
+>>>>>>> b11634c (exo_3 done)
