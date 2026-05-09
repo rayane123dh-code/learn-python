@@ -28,9 +28,9 @@ for i in range(n,1,-1):
     s*=i
 print (s)
 def fact(x):
-    if x == 0:'''
+    if x == 0:
         return 1
     return x * fact(x - 1)
 
 x=int(input())
-print(fact(x))
+print(fact(x))'''
