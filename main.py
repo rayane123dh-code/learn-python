@@ -21,14 +21,14 @@ The results should be printed in a comma-separated sequence on a single line.
 Suppose the following input is supplied to the program:
 8
 Then, the output should be:
-40320'''
+40320
 n=int(input("enter the integer number : "))
 s=1
 for i in range(n,1,-1):
     s*=i
 print (s)
 def fact(x):
-    if x == 0:
+    if x == 0:'''
         return 1
     return x * fact(x - 1)
 
