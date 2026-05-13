@@ -55,8 +55,13 @@ for i in range(1,n+1):
     d[i]=i*i
 
 print(d)'''
+'''### Question 4
+Level 1
+
+Question:
+Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.
 z=[]
 z=input("entere numbers : ").split()
 print(z)
-print(tuple(z))
+print(tuple(z))'''
 
